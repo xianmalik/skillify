@@ -1,6 +1,7 @@
 body {
     font-family: 'Rubik', sans-serif;
-    font-weight: 400; }
+    font-weight: 400;
+    overflow-x: hidden; }
 h1,
 h2,
 h3,
@@ -13,6 +14,90 @@ h1 {
 h2 {
     font-size: 48px; }
 p {
-    font-size: 22px; }
+    font-size: 16px; }
+p.small {
+    font-size: 12px; }
 p.big {
     font-size: 26px; }
+
+
+
+/*NAVBAR*/
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9999; }
+    .navbar-nav > li > a {
+        color: #FFF !important;
+        padding-top: 1.5em !important;
+        padding-bottom: 1.5em !important; }
+        .navbar-default .navbar-nav > .active > a,
+        .navbar-default .navbar-nav > .active > a:focus,
+        .navbar-default .navbar-nav > .active > a:hover {
+            color: #333;
+            background-color: transparent; }
+
+
+
+/*SLIDER*/
+header {
+    background-image: url('img/home-slider-bg.jpg');
+    background-size: cover;
+    display: block;
+    min-height: 100vh;
+    min-width: 100vw; }
+    header #Slider.slider {
+        position: absolute;
+        display: block;
+        height: 100%;
+        width: 100%; }
+        header #Slider.slider .slider-wrap {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            width: auto;
+            position: relative; }
+            header #Slider.slider .slider-wrap .slider-content {
+                margin: auto;
+                color: #FFF; }
+
+
+
+
+/*CONTENT*/
+.content-wrap {
+}
+
+section {
+    padding: 100px 0; }
+    section .section-title {
+        text-align: center; }
+section.dark-bg {
+    color: #FFF; }
+
+
+section#Impact {
+    background: #000; }
+section#StartOver {
+    background: #FCE525; }
+
+
+
+
+/*ELEMENTS*/
+
+.card {
+    border: 2px solid #FFF;
+    padding: 10% 10% 0;
+    text-align: center; }
+    .card-title {
+        font-size: 100px; }
+    .card-desc {
+        padding: 5%;
+        font-size: 12px;
+        border: 2px solid #FFF;
+        margin: 2em auto -1.8em;
+        background: #000; }

@@ -14,7 +14,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body ng-app="navRouting">
+<body>
     <div class="page-wrap">
         <header>
             <nav class="navbar navbar-default">
@@ -39,12 +39,121 @@
                     </div>
                 </div>
             </nav>
+
+            <div class="slider" id="Slider">
+                <div class="slider-wrap">
+                    <div class="slider-content text-center">
+                        <h1>
+                            Find Your Success,
+                            <br>Your Way
+                        </h1>
+                        <p class="big">
+                            Whether your..........
+                        </p>
+                    </div>
+                </div>
+            </div>
         </header>
 
         <div class="content-wrap">
-            <ng-view>
+            <section id="Impact" class="section_one dark-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="section-title">
+                                The Impact
+                            </h2>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-title">98%</div>
+                                <div class="card-desc">Of students say they</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-title">98%</div>
+                                <div class="card-desc">Of students say they</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-title">98%</div>
+                                <div class="card-desc">Of students say they</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-            </ng-view>
+            <section class="section_two section_dot_after">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-push-6">
+                            <img src="img/home-learn-image.png">
+                        </div>
+                        <div class="col-md-6 col-md-pull-6">
+                            <img src="img/point-1.png">
+                            <h2>Learn what it takes</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section_three section_dot_after">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="img/home-your-image.png" style="position: absolute; right: 0;">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/point-2.png">
+                            <h2>
+                                Your virtual coach
+                                <br>has your back
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section_four section_dot_after">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-push-6">
+                            <img src="img/home-people-image.png">
+                        </div>
+                        <div class="col-md-6 col-md-pull-6">
+                            <img src="img/point-3.png">
+                            <h2>
+                                Transform conversations
+                                <br>into opportunities
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="StartOver" class="section_five">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <img src="img/point-4.png">
+                            <h2>Not a fit? Let's start over</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque aliquid vero rerum dolores iusto ducimus, perspiciatis accusamus in aut ipsam beatae quasi veritatis tempore magni numquam fugit necessitatibus, natus molestiae.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
 
         <footer>
@@ -61,8 +170,6 @@
     <link rel="stylesheet" href="css/responsive.css" media="(max-width: 768px)">
 
     <script src="js/vendors/jquery.min.js"></script>
-    <script src="js/vendors/angular.min.js"></script>
-    <script src="js/vendors/angular-route.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
 </body>
