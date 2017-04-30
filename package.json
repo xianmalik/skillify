@@ -1,0 +1,25 @@
+{
+  "name": "skillify",
+  "version": "1.0.0",
+  "description": "Project Files for >> Skillify  <<",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zubayer-rogue/skillify.git"
+  },
+  "keywords": [
+    "Skillify"
+  ],
+  "author": "Zubayer, Creative Planet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zubayer-rogue/skillify/issues"
+  },
+  "homepage": "https://github.com/zubayer-rogue/skillify#readme"
+}
