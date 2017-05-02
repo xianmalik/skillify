@@ -1,6 +1,7 @@
 body {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
+    color: #40525E;
     overflow-x: hidden; }
 h1,
 h2,
@@ -129,7 +130,19 @@ section#Choice {
     color: #FFF;
     padding: 120px 0 140px;
     text-align: center; }
+section#Educators {
+    background: #FBFBFB;
+    padding: 30px 0; }
+section#ParentsTesti h5 {
+    margin-top: 1.5em;
+    color: #00B2EE; }
 
+.testimonial-carousel > div {
+    border: 2px solid #00b2ee;
+    padding: 2.5% 5%;
+    margin-top: 140px; }
+    .testimonial-carousel > div img {
+        margin: -140px 0 30px; }
 
 
 /*ELEMENTS*/
@@ -175,3 +188,75 @@ section#Choice {
         .team-single .tm-desc .tm-name,
         .team-single .tm-desc .tm-desg {
             margin: 0; }
+
+
+.mntr-blue {
+    position: relative;
+    color: #0084FF; }
+    .mntr-blue:before {
+        content: url('img/mntr-doctor.png');
+        position: absolute;
+        bottom: 100%; }
+.mntr-orange {
+    position: relative;
+    color: #F64F0E; }
+    .mntr-orange:before {
+        content: url('img/mntr-tattoo.png');
+        position: absolute;
+        bottom: 100%; }
+
+.flex-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3em; }
+    .flex-wrap img {
+        margin-right: 1.5em; }
+
+.mntr-name {
+    margin-bottom: .25em;
+    color: #00B2EE; }
+.mntr-btn {
+    display: inline-block;
+    color: #F3422A;
+    border: 1px solid #F3422A;
+    padding: .8em 2.5em;
+    border-radius: 2em;
+    transition: all .3s ease-in-out; }
+    .mntr-btn:hover {
+        background-color: #F3422A;
+        color: #FFF; }
+
+
+.button-round {
+    display: inline-block;
+    font-size: 20px;
+    color: #FFFFFF !important;
+    background-color: #F3422A;
+    padding: .8em 3.5em;
+    border-radius: 2em;
+}
+
+
+
+
+
+
+
+
+footer {
+    margin: 50px 0;
+    text-align: center; }
+footer .social-media-buttons {
+    margin: 30px 0;
+    padding: 0; }
+footer .footer-nav li,
+footer .social-media-buttons li {
+    display: inline-block; }
+    footer .footer-nav li a,
+    footer .social-media-buttons li a {
+        padding: 1em; }
+
+footer .copyright {
+    opacity: .5;
+    font-size: 9px;
+    margin: 30px; }
