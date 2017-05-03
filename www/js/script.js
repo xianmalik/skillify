@@ -27,7 +27,7 @@ jQuery(document).ready(function($){
 
     $(window).scroll(function() {
         $('section:not(.animate)').each(function(){
-            if( $(window).scrollTop() + 300  >= $(this).position().top){
+            if( $(window).scrollTop() + $(window).height() * .67  >= $(this).position().top){
                 $(this).addClass('animate').find('.counter').queue(function(){
                     val = $(this).data('counter');
                     $(this).counter({end: val, duration: 1000});

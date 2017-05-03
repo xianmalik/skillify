@@ -177,6 +177,22 @@ section.section_dot_after::after {
 
 @keyframes         pulse { 50% { transform: scale(1.2); } }
 @-webkit-keyframes pulse { 50% { transform: scale(1.2); } }
+
+
+.slider-from-left,
+.slider-from-right {
+    transition: .5s ease-out;
+    opacity: .1; }
+    .slider-from-left {
+        transform: translateX(-500px);}
+    .slider-from-right {
+        transform: translateX(500px); }
+.animate .slider-from-left,
+.animate .slider-from-right {
+    transform: translateX(0);
+    opacity: 1; }
+
+
 header {
     padding: 30px 0 130px;
     overflow: auto;
