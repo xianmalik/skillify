@@ -88,8 +88,76 @@
                 </div>
             </section>
 
-            <section class="section_three section_dot_after">
-
+            <section class="section_three">
+                <div class="container-fluid" style="padding: 0;">
+                    <div class="faded-h1">
+                        Testimonial
+                    </div>
+                    <div class="owl-carousel owl-theme" style="background: #FFF">
+                        <div>
+                            <div class="row row-eq-height">
+                                <div class="col-md-5" style="padding: 0;">
+                                    <img src="img/testimonial-one.png" style="width: 100%;">
+                                </div>
+                                <div class="col-md-7 border-color" style="padding: 2.5%; min-height: 100%;">
+                                    <h2 class="blue">
+                                        Southern California
+                                        <br>College Access Network
+                                    </h2>
+                                    <p>
+                                        "Skillify met our objective of increasing the confidence level of each student
+                                        and preparing them for their mentoring and interning programs. Students
+                                        were actively engaged and practiced networking skills in a highly animated
+                                        and beneficial professional setting. Shireen captivated our students with
+                                        her personal examples from her life and with her enthusiasm. They received
+                                        a great benefit from her workshop on networking. Our students thanked me
+                                        on the way out for providing this workshop. Their comments were that they
+                                        felt much more connected to each other as an academy and learned their
+                                        own commonalities and they learned practical tips like remembering to check
+                                        their emails daily! Thank you!! Skillify exceeded expectations and comes
+                                        highly recommended."
+                                    </p>
+                                    <p class="small text-uppercase">
+                                        <b>
+                                            TONY H. / DIAMOND BAR HIGH SCHOOL STUDENT, FUTURE BUSINESS LEADERS OF AMERICA
+                                        </b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="row row-eq-height">
+                                <div class="col-md-5" style="padding: 0;">
+                                    <img src="img/testimonial-one.png" style="width: 100%;">
+                                </div>
+                                <div class="col-md-7 border-color" style="padding: 2.5%; min-height: 100%;">
+                                    <h2 class="blue">
+                                        Southern California
+                                        <br>College Access Network
+                                    </h2>
+                                    <p>
+                                        "Skillify met our objective of increasing the confidence level of each student
+                                        and preparing them for their mentoring and interning programs. Students
+                                        were actively engaged and practiced networking skills in a highly animated
+                                        and beneficial professional setting. Shireen captivated our students with
+                                        her personal examples from her life and with her enthusiasm. They received
+                                        a great benefit from her workshop on networking. Our students thanked me
+                                        on the way out for providing this workshop. Their comments were that they
+                                        felt much more connected to each other as an academy and learned their
+                                        own commonalities and they learned practical tips like remembering to check
+                                        their emails daily! Thank you!! Skillify exceeded expectations and comes
+                                        highly recommended."
+                                    </p>
+                                    <p class="small text-uppercase">
+                                        <b>
+                                            TONY H. / DIAMOND BAR HIGH SCHOOL STUDENT, FUTURE BUSINESS LEADERS OF AMERICA
+                                        </b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <section id="Choice" class="section_six">
@@ -138,11 +206,25 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css" media="(max-width: 768px)">
 
     <script src="js/vendors/jquery.min.js"></script>
+    <script src="js/vendors/owl.carousel.js"></script>
+    <script src="js/vendors/owl.navigation.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            items: 1,
+            margin: 20,
+            nav: true,
+            dots: false,
+            navText: [ '🡠' , '🡢' ]
+        })
+    </script>
 </body>
 </html>

@@ -65,20 +65,32 @@
                         </div>
                         <div class="col-md-4">
                             <div class="card">
-                                <div class="card-title">98%</div>
-                                <div class="card-desc">Of students say they</div>
+                                <div class="card-title"><span class=" counter" data-counter="98">00</span>%</div>
+                                <div class="card-desc">
+                                    Of students say they achieved their goal of
+                                    <br>finding connections in their field
+                                    <br>of interest
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="card">
-                                <div class="card-title">98%</div>
-                                <div class="card-desc">Of students say they</div>
+                                <div class="card-title"><span class=" counter" data-counter="92">00</span>%</div>
+                                <div class="card-desc">
+                                    Of students say they achieved
+                                    <br>their goal of securing
+                                    <br>a job shadow
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="card">
-                                <div class="card-title">98%</div>
-                                <div class="card-desc">Of students say they</div>
+                                <div class="card-title"><span class=" counter" data-counter="85">00</span>%</div>
+                                <div class="card-desc">
+                                    Of students say they achieved
+                                    <br>their goal of securing
+                                    <br>an internship
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -90,7 +102,31 @@
                     <div class="row">
                         <div class="col-md-12 text-center">
                             <h2 class="blue">Wat are students saying?</h2>
-                            <div class="owl-carousel testimonial-carousel">
+                            <div class="owl-carousel owl-theme testimonial-carousel">
+                                <div>
+                                    <img src="img/testi-avatar-1.png" class="testi-avatar">
+                                    <div class="wrap">
+                                        <p>
+                                            <i>
+                                                "When I first heard about the Skillify program, I didn't know what to think. The thought of networking and talking to adults scared
+                                                me. My friends and my parents convinced me to apply. I'm happy I did. Skillify is a great program. Not only did they help me talk to
+                                                new people, but they also helped me develop and grow my professional skills. All the staff care about you and working with your
+                                                Student Success Manager is great!! They spend one on one time with you and on anything you need.  Just ask, and they'll be there
+                                                for you. One of the biggest ways my Student Success Manager helped me was connecting me with professionals in the nursing and
+                                                computer science field. I had an idea of what I wanted to pursue in college, but I could never narrow it down between nursing or
+                                                computer programming. Through the calls, I talked to 4 professionals from Skillify. From those four professionals, I was able to
+                                                connect with two more people. Every adult I called was super friendly and happy to answer my questions. Through weeks of
+                                                calling, asking questions about their jobs, and asking questions about college, I was able to get a better feel of what path
+                                                would be best for me. Skillify provides countless opportunities for me. I'm so proud to say I'm a Skillify student."
+                                            </i>
+                                        </p>
+                                        <p class="small text-uppercase">
+                                            <b>
+                                                ALEXIS N. / NARBONNE SENIOR HIGH SCHOOL (2017)
+                                            </b>
+                                        </p>
+                                    </div>
+                                </div>
                                 <div>
                                     <img src="img/testi-avatar-1.png" class="testi-avatar">
                                     <div class="wrap">
@@ -315,11 +351,25 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css" media="(max-width: 768px)">
 
     <script src="js/vendors/jquery.min.js"></script>
+    <script src="js/vendors/owl.carousel.js"></script>
+    <script src="js/vendors/owl.navigation.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            items: 1,
+            margin: 20,
+            nav: true,
+            dots: false,
+            navText: [ '🡠' , '🡢' ]
+        })
+    </script>
 </body>
 </html>

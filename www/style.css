@@ -1,3 +1,9 @@
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
 body {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
@@ -108,7 +114,10 @@ section.section_dot_after::after {
     bottom: -85px;
     margin: auto;
     left: calc(50% - 5px); }
-
+.border-color {
+    padding: 0;
+    border: 3px solid #00B2EE;
+}
 /*NAVBAR*/
 .navbar-default {
     background-color: transparent;
@@ -226,12 +235,13 @@ section#ParentsTesti h5 {
     margin-top: 1.5em;
     color: #00B2EE; }
 
-.testimonial-carousel > div {
+.testimonial-carousel .owl-item > div {
     border: 2px solid #00b2ee;
     padding: 2.5% 5%;
     margin-top: 140px; }
-    .testimonial-carousel > div img {
-        margin: -140px 0 30px; }
+    .testimonial-carousel .owl-item > div img {
+        width: initial;
+        margin: -140px auto 30px; }
 
 section#Team {
     padding: 200px 0 0; }
@@ -379,3 +389,12 @@ footer {
             opacity: .5;
             font-size: 9px;
             margin: 30px; }
+
+    .owl-nav > div {
+        font-size: 24px !important;
+        background: #FFF !important;
+        color: #00b2ee !important;
+        border: 2px solid #00b2ee;
+        padding: .25em .5em !important;
+        line-height: 1.5em;
+        border-radius: 0 !important; }
