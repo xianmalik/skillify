@@ -23,7 +23,8 @@ h5 {
 h5.normal {
     font-weight: 400; }
 p {
-    font-size: 18px; }
+    font-size: 18px;
+    line-height: 30px; }
 p.small {
     font-size: 12px; }
 p.meta {
@@ -56,7 +57,7 @@ img {
     .button:hover,
     .button:focus,
     .button:active {
-        box-shadow: 4px 2px 8px 0 rgba( 0, 0, 0, 0.3); }
+        box-shadow: 0 22px 48px 0 rgba(0, 0, 0, .15); }
 
 
 /*NAVBAR*/
@@ -120,6 +121,11 @@ section {
 section.dark-bg {
     color: #FFF; }
 
+.content-wrap {
+    background: #FFF;
+    z-index: 1;
+    box-shadow: 0 10px 65px 0px rgba(0,0,0,0.3); }
+
 
 section#Impact {
     background: #000; }
@@ -144,6 +150,8 @@ section#ParentsTesti h5 {
     .testimonial-carousel > div img {
         margin: -140px 0 30px; }
 
+section#MoreTeam .col-md-2 {
+    width: 20%; }
 
 /*ELEMENTS*/
 
@@ -179,6 +187,8 @@ section#ParentsTesti h5 {
     position: relative;
     margin-bottom: 30px; }
     .team-single .tm-avatar {
+        box-shadow: 4px 4px 16px 0 rgba(0, 0, 0, 0.5);
+        border-radius: 15%;
         width: 100%; }
     .team-single .tm-desc {
         position: absolute;
@@ -188,6 +198,8 @@ section#ParentsTesti h5 {
         .team-single .tm-desc .tm-name,
         .team-single .tm-desc .tm-desg {
             margin: 0; }
+section#MoreTeam .team-single .tm-desc {
+    padding: .5em 1em; }
 
 
 .mntr-blue {
@@ -244,19 +256,24 @@ section#ParentsTesti h5 {
 
 
 footer {
-    margin: 50px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: -1;
     text-align: center; }
-footer .social-media-buttons {
-    margin: 30px 0;
-    padding: 0; }
-footer .footer-nav li,
-footer .social-media-buttons li {
-    display: inline-block; }
-    footer .footer-nav li a,
-    footer .social-media-buttons li a {
-        padding: 1em; }
+    footer .container {
+        margin: 50px auto; }
+        footer .social-media-buttons {
+            margin: 30px 0;
+            padding: 0; }
+        footer .footer-nav li,
+        footer .social-media-buttons li {
+            display: inline-block; }
+            footer .footer-nav li a,
+            footer .social-media-buttons li a {
+                padding: 1em; }
 
-footer .copyright {
-    opacity: .5;
-    font-size: 9px;
-    margin: 30px; }
+        footer .copyright {
+            opacity: .5;
+            font-size: 9px;
+            margin: 30px; }
