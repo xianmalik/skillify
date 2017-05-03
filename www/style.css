@@ -175,25 +175,8 @@ section.section_dot_after::after {
                 margin-top: 3em; }
 
 
-@keyframes pulse {
-    50% {
-        height: 80px;
-        width: 80px;
-        line-height: 80px;
-        margin: -50px auto -5px;
-    }
-}
-@-webkit-keyframes pulse {
-    0% {
-        transform: scale(1.1);
-    }
-    50% {
-        transform: scale(1.1);
-    }
-    100% {
-        transform: scale(1.1);
-    }
-}
+@keyframes         pulse { 50% { transform: scale(1.2); } }
+@-webkit-keyframes pulse { 50% { transform: scale(1.2); } }
 header {
     padding: 30px 0 130px;
     overflow: auto;
