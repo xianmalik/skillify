@@ -436,3 +436,24 @@ footer {
     .page-loader img {
         margin: auto;
         height: 200px; }
+
+.contact #Slider h1 { margin: auto; }
+.contact label {
+    font-weight: 400;
+}
+.contact input,
+.contact textarea {
+    overflow: visible;
+    background: rgba(0,0,0,.1);
+    border: none;
+    padding: 1em 1.2em;
+    width: 100%;
+    margin-bottom: 1.5em;
+    outline: none !important;
+}
+.contact input[type="submit"] {
+    background: #FFF;
+    color: #00b2ee;
+    width: auto;
+    padding: 1.5em 3em;
+}
