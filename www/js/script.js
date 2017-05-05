@@ -19,9 +19,9 @@ $.fn.counter = function( options ) {
 		complete: settings.complete
 	});
 };
-
-function scrolled(el) {
-}
+$(window).load(function() {
+    $('.page-loader').hide();
+});
 jQuery(document).ready(function($){
     $('.content-wrap').css('margin-bottom', $('footer').height());
 
