@@ -146,6 +146,12 @@ section.section_dot_after::after {
     display: block;
     min-height: 100vh;
     min-width: 100vw; }
+	.about header {
+		padding-bottom: 50px; }
+		.about header #Slider .slider-wrap img {
+			margin-top: 5em !important; }
+	.impact header {
+		padding: 0; }
     .home header #Slider.slider {
         position: absolute;
         display: block;

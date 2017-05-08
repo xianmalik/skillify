@@ -19,24 +19,27 @@ $.fn.counter = function( options ) {
 		complete: settings.complete
 	});
 };
+function animate(){
+	$('section:not(.animate)').each(function(){
+		if( $(window).scrollTop() + $(window).height() * .67  >= $(this).position().top){
+			$(this).addClass('animate').find('.counter').queue(function(){
+				val = $(this).data('counter');
+				$(this).counter({end: val, duration: 1000});
+			});
+		}
+	});
+};
 $(window).load(function() {
     $('.page-loader').hide();
 });
 jQuery(document).ready(function($){
+	animate();
     $('.content-wrap').css('margin-bottom', $('footer').height());
-
-    $(window).scroll(function() {
-        $('section:not(.animate)').each(function(){
-            if( $(window).scrollTop() + $(window).height() * .67  >= $(this).position().top){
-                $(this).addClass('animate').find('.counter').queue(function(){
-                    val = $(this).data('counter');
-                    $(this).counter({end: val, duration: 1000});
-                });
-            }
-        });
-    });
+    $(window).scroll(function(){
+		animate();
+	});
     $('a.slider-arrow').click(function(event) {
         event.preventDefault();
-        $('body').animate({ scrollTop: $('#Slider').height() }, 1000);
+        $('body').animate({ scrollTop: $('header').outerHeight() }, 1000);
     });
 });
