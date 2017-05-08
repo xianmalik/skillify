@@ -42,4 +42,12 @@ jQuery(document).ready(function($){
         event.preventDefault();
         $('body').animate({ scrollTop: $('header').outerHeight() }, 1000);
     });
+    $('.glow').click(function(event){
+        event.preventDefault();
+        $('.lightbox').hide();
+        $(  "#" + $(this).data('lightbox') ).css('display', 'flex');
+    });
+    $('.lb-close').click(function(){
+        $('.lightbox-content').hide();
+    });
 });

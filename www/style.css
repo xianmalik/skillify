@@ -30,8 +30,8 @@ h5.normal {
     font-weight: 400; }
 p {
     font-size: 18px;
+    p.small {
     line-height: 30px; }
-p.small {
     font-size: 12px; }
 p.meta {
     font-size: 14px; }
@@ -181,7 +181,9 @@ section.section_dot_after::after {
                 animation: pulse 2s infinite; }
             header #Slider.slider .slider-wrap img {
                 margin-top: 3em; }
-
+#Slider {
+    padding-left: 5%;
+    padding-right: 5%; }
 
 @keyframes         pulse { 50% { transform: scale(1.2); } }
 @-webkit-keyframes pulse { 50% { transform: scale(1.2); } }
@@ -478,3 +480,67 @@ footer {
     width: auto;
     padding: 1.5em 3em;
 }
+
+
+
+
+.glow {
+    font-size: 36px;
+    text-align: right;
+    font-weight: 900;
+    padding: .2em .2em 0 0;
+    color: #FFF !important;
+    line-height: 1em;
+    background: #00b2ee;
+    border-radius: 100%;
+    width: 1.2em;
+    display: inline-block;
+    position: relative; }
+    .glow:before {
+        content: '';
+        background: #00b2ee;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: .5;
+        z-index: -1;
+        animation: glow 2s reverse infinite ease-in-out;
+        border-radius: 100%; }
+        .glow:hover::before {
+            animation: none; }
+
+@keyframes glow { 50% { transform: scale(1.5); } }
+
+.lightbox-content {
+    font-size: 16px;
+    display: none;
+    position: fixed;
+    top: 30vh;
+    left: 20vw;
+    margin: auto;
+    align-items: center;
+    height: 40vh;
+    width: 60vw;
+    z-index: 9999999999999;
+    background: #FFF;
+    border: 3px solid #00b2ee;
+    box-shadow: 0 0 0 2000px rgba(0, 0, 0, 0.7);
+    padding: 5%; }
+    .lb-close {
+        font-size: 20px;
+        line-height: 1.9em;
+        height: 2em;
+        width: 2em;
+        display: inline-block;
+        text-align: center;
+        background: #FFF;
+        position: absolute;
+        top: -1em;
+        right: -1em;
+        border-radius: 100%;
+        border: 3px solid #00b2ee;
+        color: #00b2ee;
+        font-weight: 900;
+        cursor: pointer; }
