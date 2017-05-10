@@ -233,7 +233,7 @@ section.dark-bg {
 
 section#Impact {
     padding: 120px 0;
-    background: #000; }
+    background: #333; }
 section#StartOver {
     background: #FCE525; }
 section#Choice {
@@ -280,7 +280,7 @@ section#Mission .row {
         font-size: 12px;
         border: 2px solid #FFF;
         margin: 2em auto -1.8em;
-        background: #000;
+        background: #333;
         transition: all .3s ease-in-out; }
     .card:hover,
     .card:hover .card-desc {
@@ -486,6 +486,15 @@ footer {
 
 .glow {
     font-size: 36px;
+    display: flex;
+    align-items: center; }
+    .section_two .glow {
+        display: inline-block;
+        text-align: center; }
+        .section_two .glow span {
+            margin: .5em auto !important;
+            display: block !important; }
+.glow span:first-child {
     text-align: right;
     font-weight: 900;
     padding: .2em .2em 0 0;
@@ -496,7 +505,7 @@ footer {
     width: 1.2em;
     display: inline-block;
     position: relative; }
-    .glow:before {
+    .glow span:first-child:before {
         content: '';
         background: #00b2ee;
         position: absolute;
@@ -508,8 +517,16 @@ footer {
         z-index: -1;
         animation: glow 2s reverse infinite ease-in-out;
         border-radius: 100%; }
-        .glow:hover::before {
+        .glow:hover span:first-child::before {
             animation: none; }
+.glow span:last-child {
+    font-size: 14px;
+    background: #e5e4ea;
+    padding: .1em 1em;
+    display: inline-block;
+    margin: 0 0 0 1.2em;
+    border-radius: 3em;
+}
 
 @keyframes glow { 50% { transform: scale(1.5); } }
 

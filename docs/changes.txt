@@ -1,0 +1,100 @@
+Home:
+Copy Change
+⦁	Find Your success your way.
+⦁	There should be a period at the end ^^^
+⦁	The Impact
+⦁	Make The Impact Background a light grey instead of black (this goes for The Impact page as well)
+⦁	New Section 1:
+⦁	Ready? (this should be centered)
+⦁	All Students apply to and begin with the six month, Level 1 Program: “The Networker.”
+***She also wants new text beside each 1-5 that shows that you should click on the button.
+⦁	Button Text: Learn about Application and Program Tuition
+⦁	Hover Text inside box:
+⦁	All high school and college students are welcome to apply!  Once accepted, students can register for their Level 1 program.  The tuition for the six-month program is $490, and partial, need-based financial assistance is available to all families showing need.  Keep reading to learn about how the six-month program benefits students!
+
+Section 2: Learn What It Takes
+⦁	Button Text: Learn More About The Conference
+⦁	New Copy: Before students can figure out what they’re interested in, they need to learn what it takes.  That’s why the six-month program kicks off with a one-day conference at the University of Southern California.  Students will learn the core professional skills that will leave them feeling empowered and ready to explore their interests beyond their school’s campus.
+
+Section 3: Your Virtual Coach Has Your Back
+⦁	Button Text: Learn More About Coaching
+⦁	New Copy: Once students learn what it takes, it’s go-time! They will need help along the way, so each student will have a virtual coach who will be available based on the student’s schedule.  Coaches help students narrow down their interests, meet professionals in those fields, and support them in the way they need.
+
+Section 4: Transform Conversations Into Opportunities
+⦁	Button Text: Learn More About The Six Months Support
+⦁	New Copy: There is a reason why the program is six months long.  We start with simple introductions to professionals.  Based on the student’s goal and schedule, the coach will provide one-on-one guidance on turning simple introductions into professional opportunities, like mentorships, job shadows, and internships.
+
+
+Section 5: Cross It off Your List, You’re One Step Closer
+⦁	THERE IS NO BUTTON OR HOVER TEXT FOR STEP 5, REMOVE IT
+⦁	New Copy: These things take time. We give students time to build relationships, job shadow, and explore other interests if their initial interest didn’t work out. We’re a big fan of “Cross it off the list, you’re one step closer!” This isn’t about locking our students down, but empowering them to actively explore and find the best options for themselves.
+
+
+
+
+
+
+About
+
+Delete: “Meet the Team” and leave the text below
+Note: At the very end in the copy where it says “Read our story below” move that to the bottom:
+Skillify was founded in 2012 at the University of Southern California. The team consists of education enthusiasts and is supported by the USC faculty and social entrepreneurs.
+Read Our Story Below
+
+Advisors (updated titles)
+Raaid Hossain: Advisor - Strategy
+Daniel Fischer: Advisor - Technology
+Tina Admans: Advisor - Social Responsibility
+Patrick Henry: Advisor - USC
+Luke Brown: Advisor - USC
+
+
+
+
+
+
+
+
+
+
+The Impact
+
+Change The Impact background to light grey to match the home page
+
+Here is the order of Parents Testimonials
+
+Thank you so much for this program! It has already made a strong impact in Daniella's life. She has clarified her career goal - event planner. She enrolled in a speed reading/summer reading program. She is also watching informative TedTalks, all of which bring maturity and personal growth! Just today she heard she got selected for an unpaid summer internship and is excited about working on a campaign to raise awareness and funds for Free Arts for Abused Children. She is doing all of this on her own and I could not be more proud of her.
+- Patricia S., mother of senior at West Ranch High School
+
+I think that this is a wonderful program to offer to high school students, especially at a time in our society when it can be SO hard to find work of any kind. This program really helps to empower our young people, and this is a huge relief to us parents, as well as to our children. Thank you
+- Mitzi S., mother of sophomore at Ulysses S. Grant High School
+
+Melissa absolutely loved Saturday! She said she never, not once, looked at the time - the day flew by. She has been talking about the program since Saturday, and has shown a real enthusiasm in continuing to participate. Thank you so much for this absolutely fabulous program! I know Melissa will continue to grow and thrive.
+- Alex W., mother of freshman at Sherman Oaks Center for Enriched Studies
+
+Spencer was very enthusiastic with what he learned at the conference and what he learned about himself. His confidence level rose and he understood the value of the tools he is being introduced to. He is formulating goals and feels very good about being able to accomplish them. Thank you very much for creating this valuable experience and for presenting the opportunity to Spencer in Mr. Kurz classroom.
+- Dennis W., father of seniors at Mira Costa High School
+
+My daughter is already empowered by having attended the conference. She came home feeling inspired and hopeful that there are more options out there for her than she thought there were.
+- Marina M., mother of junior at Palisades Charter High School
+
+We are so grateful Stephanie was chosen for this amazing opportunity. She is our oldest and we didn't get the chance to continue with college right after high school. She has worked so hard to live her dream of college and a career in Physical Therapy. Now with Skillify we know she is a step closer to making it a reality.
+- Marcela R, mother of sophomore at West Covina High School
+
+***At the end of each testimonial it says “mother of….” Etc. Include that in the copy and change the order. Don’t make them red, I just wanted you to see it.
+
+
+---------------------------
+
+
+Educators
+⦁	She wants the copy to read like this: (with CTE-Aligned and California Below)
+
+We proudly partner with high schools, colleges, non-profits, and other groups that are committed to developing students confident and independent young professionals.
+CTE-Aligned Curriculum
+Proud California Partnership Academy Partner
+
+
+⦁	Then there is some white space between “We customize our six month program and the testimonials: She wants the white space to read:
+
+What Our Partners Are Saying
