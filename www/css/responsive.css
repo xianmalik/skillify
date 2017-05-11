@@ -20,7 +20,8 @@ p.meta {
 p.big {
     font-size: 16px; }
 
-
+header {
+    padding-bottom: 0; }
 section img {
     position: relative !important;
     max-width: 100% !important; }
@@ -35,8 +36,47 @@ html {
     overflow-x: hidden; }
 .flex-wrap {
     display: block; }
+.faded-h1 {
+    font-size: 100px;
+    line-height: 1.2em;
+    opacity: 1;
+    margin-bottom: .5em; }
+.content-wrap {
+    margin-bottom: 0 !important; }
+.navbar-collapse,
+.navbar-header {
+    border: 0px !important; }
+.home .navbar-collapse,
+.home .navbar-header {
+    background: rgba(0, 0, 0, .4);  }
+.navbar-brand {
+    height: initial; }
+.navbar-toggle,
+.navbar-toggle:hover,
+.navbar-toggle:focus,
+.navbar-toggle:active {
+    background: transparent !important;
+    border: 0px !important;
+    margin-top: 18px; }
+.navbar-toggle span {
+    background-color: #FFF !important; }
+
+
+section#MoreTeam .team-single .tm-desc {
+    padding: 2em; }
+.flex-wrap img {
+    margin-right: 0; }
+.mentors .section_two {
+    text-align: center; }
+
+.contact form > div {
+    padding: 0; }
+
+#Impact .col-md-4 {
+    padding: 0 10% 10%; }
 footer {
     position: relative;
-}
-.content-wrap {
-    margin-bottom: 0; }
+    z-index: 1; }
+    footer ul {
+        margin: 0;
+        padding: 0; }
