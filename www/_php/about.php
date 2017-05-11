@@ -1,0 +1,340 @@
+<?php /* Template Name: About Page Template */ ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>About | Skillify</title>
+
+    <link rel="shortcut icon" href="http://www.skillifynow.com/img/favicon.png" type="image/x-icon">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="about">
+    <div class="page-loader">
+        <div class="bar"></div>
+    </div>
+    <div class="page-wrap">
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="http://www.skillifynow.com/"><img src="http://www.skillifynow.com/img/logo.png" alt="Skillify"></a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="main-nav">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="http://www.skillifynow.com/">Home</a></li>
+                            <li><a href="http://www.skillifynow.com/about">About</a></li>
+                            <li><a href="http://www.skillifynow.com/impact">The Impact</a></li>
+                            <li><a href="http://www.skillifynow.com/mentors">Mentors</a></li>
+                            <li><a href="http://www.skillifynow.com/educator">Educators</a></li>
+                            <li><a href="http://www.skillifynow.com/news">News</a></li>
+                            <li><a href="http://www.skillifynow.com/contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="slider" id="Slider">
+                <div class="slider-wrap">
+                    <div class="slider-content text-center">
+                        <h1>&nbsp;</h1>
+                        <p class="big">
+                            Skillify was founded in 2012 at the University of Southern California. The team consists of education enthusiasts and is supported by USC faculty and social entrepreneurs.
+                            <br>Read our story below
+                        </p>
+                        <img src="http://www.skillifynow.com/img/slider-arrow.png">
+                        <a href="#" class="slider-arrow"></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="content-wrap">
+            <section class="section_one">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 slider-from-left">
+                            <h2>The Realization</h2>
+                            <p>
+                                I moved to Palo Alto, CA from Pakistan when I was 7, this was rare for
+                                immigrant  families like mine; most of my parent's friends settled in
+                                urban cities, not in  affluent neighborhoods with top rated schools
+                                like we did. I knew from an early  age that I was very fortunate.
+                                However, I also was aware of the differences  between myself and
+                                my new friends.
+                            </p>
+                            <p>
+                                I spent most of my summers babysitting while my friends were away
+                                at prestiqous  summer camps. I gained experience through  applying
+                                to internships and making mistakes, while my peers relied o n their
+                                parents networks. By  the time I entered college at the University of
+                                Southern California, I  had four years  of part-time  jobs and internships
+                                under my belt, and a network of fantastic  mentors I had  gained along
+                                the way. I quickly came to realize  that I was one of few. It was at this
+                                pivital moment I  realized that  academic  success doesn't always
+                                equal professional success, and most of my  peers lacked the skills
+                                that I gained from the experiences I had.
+                            </p>
+                        </div>
+                        <div class="col-md-6 slider-from-right">
+                            <img src="http://www.skillifynow.com/img/shireen.png" style="padding-left: 10%;">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="Mission" class="section_two">
+                <div class="container border_box">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h2 class="blue">Mission</h2>
+                            <p>
+                                I was tired of the misconception many students have that their success is defined by just their grades,
+                                test scores, and college admissions. By the time I reached school I had four years of work experience and a
+                                wonderful network of mentors and by the time I was 18, I had a greater sense of independence and agency,
+                                and a skillset that would serve me for years to come. I was also able to see how much value I could bring
+                                to an environment outside of just school, as well as see the reality of the working world - my bosses
+                                valued me, adults were actually not that scary, and everyone had their fears and successes.
+                            </p>
+                            <p>
+                                So in 2012, I joined the entrepreneurship program at the University of Southern California and launched
+                                Project SuitUp (now Skillify).
+                            </p>
+                            <p>
+                                My mission - re-define success for students by getting them to step out of their bubbles and
+                                experience the real world, where your value is much more than your GPA, and your success is
+                                determined by your skills.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section_three section_dot_after">
+                <div class="container">
+                    <div class="row flex-wrap" style="margin-bottom: 0;">
+                        <div class="col-md-6 slider-from-left">
+                            <h2>
+                                Project to Full Time
+                            </h2>
+                            <p>
+                                With the support of USC faculty, trusted advisors, and wonderful
+                                mentors, Project SuitUp was officially rebranded to Skillify in 2014, and
+                                I decided to pursue Skillify full-time after graduation. Since then, our
+                                six-hour conference has grown into a six-month program, serving
+                                students from 180 high schools and colleges in California.
+                            </p>
+                            <p>
+                                I am so grateful and blessed to work alongside a passionate team with
+                                backgrounds in education, economics, entertainment, sports, the
+                                sciences, and business.  I know we can all confidently say that we love
+                                spending our days working to empower students to step out of their
+                                comfort zones, know their value, and most importantly, define
+                                success for themselves.
+                            </p>
+                        </div>
+                        <div class="col-md-6 slider-from-right">
+                            <img src="http://www.skillifynow.com/img/project-suitup.png" style="padding-left: 10%;">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="Team" class="section_four">
+                <div class="container">
+                    <div class="row">
+                        <div class="faded-h1 text-center">Team</div>
+                        <div class="col-md-4 col-md-offset-2 slider-from-left">
+                            <div class="team-single">
+                                <img src="http://www.skillifynow.com/img/team-shireen.png" class="tm-avatar">
+                                <div class="tm-desc">
+                                    <h5 class="tm-name">Shireen Jaffar <a href="#"><img src="http://www.skillifynow.com/img/tm-li.png"></a></h5>
+                                    <p class="tm-desg">Managing Director</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 slider-from-right">
+                            <div class="team-single">
+                                <img src="http://www.skillifynow.com/img/team-jennifer.png" class="tm-avatar">
+                                <div class="tm-desc">
+                                    <h5 class="tm-name">Jennifer Tang <a href="#"><img src="http://www.skillifynow.com/img/tm-li.png"></a></h5>
+                                    <p class="tm-desg">Students Success Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 slider-from-left">
+                            <div class="team-single">
+                                <img src="http://www.skillifynow.com/img/team-cassidy.png" class="tm-avatar">
+                                <div class="tm-desc">
+                                    <h5 class="tm-name">Cassidy Risien <a href="#"><img src="http://www.skillifynow.com/img/tm-li.png"></a></h5>
+                                    <p class="tm-desg">Program Outreach</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="team-single">
+                                <img src="http://www.skillifynow.com/img/team-courtney.png" class="tm-avatar">
+                                <div class="tm-desc">
+                                    <h5 class="tm-name">Courtney Pierson <a href="#"><img src="http://www.skillifynow.com/img/tm-li.png"></a></h5>
+                                    <p class="tm-desg">Program Outreach</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 slider-from-right">
+                            <div class="team-single">
+                                <img src="http://www.skillifynow.com/img/team-darlene.png" class="tm-avatar">
+                                <div class="tm-desc">
+                                    <h5 class="tm-name">Darlene Dang <a href="#"><img src="http://www.skillifynow.com/img/tm-li.png"></a></h5>
+                                    <p class="tm-desg">Student Success Coach</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="MoreTeam" class="section_five">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h2>Advisors</h2>
+                        </div>
+                        <div class="col-md-2">
+							<a href="https://www.linkedin.com/in/raaid" target="_blank">
+								<div class="team-single">
+									<img src="http://www.skillifynow.com/img/team-raaid.png" class="tm-avatar">
+									<div class="tm-desc">
+										<h5 class="tm-name">
+											Raaid
+											<br>Hossain <img src="http://www.skillifynow.com/img/tm-li.png">
+										</h5>
+										<p class="tm-desg">Advisor - Strategy</p>
+									</div>
+								</div>
+							</a>
+                        </div>
+                        <div class="col-md-2">
+							<a href="https://www.linkedin.com/in/danielfischer/" target="_blank">
+								<div class="team-single">
+									<img src="http://www.skillifynow.com/img/team-daniel.png" class="tm-avatar">
+									<div class="tm-desc">
+										<h5 class="tm-name">
+											Daniel
+											<br>Fischer <img src="http://www.skillifynow.com/img/tm-li.png">
+										</h5>
+										<p class="tm-desg">Advisor - Technology</p>
+									</div>
+								</div>
+							</a>
+                        </div>
+                        <div class="col-md-2">
+							<a href="https://www.linkedin.com/in/tinaadmans/" target="_blank">
+								<div class="team-single">
+									<img src="http://www.skillifynow.com/img/team-tina.png" class="tm-avatar">
+									<div class="tm-desc">
+										<h5 class="tm-name">
+											Tina
+											<br>Admans <img src="http://www.skillifynow.com/img/tm-li.png">
+										</h5>
+										<p class="tm-desg">Advisor - Social Responsibility</p>
+									</div>
+								</div>
+							</a>
+                        </div>
+                        <div class="col-md-2">
+							<a href="https://www.linkedin.com/in/patrick-henry-24412/" target="_blank">
+								<div class="team-single">
+									<img src="http://www.skillifynow.com/img/team-patrick.png" class="tm-avatar">
+									<div class="tm-desc">
+										<h5 class="tm-name">
+											Patrick
+											<br>Henry <img src="http://www.skillifynow.com/img/tm-li.png">
+										</h5>
+										<p class="tm-desg">Advisor - USC</p>
+									</div>
+								</div>
+							</a>
+                        </div>
+                        <div class="col-md-2">
+							<a href="https://www.linkedin.com/in/lukester00/" target="_blank">
+								<div class="team-single">
+									<img src="http://www.skillifynow.com/img/team-luke.png" class="tm-avatar">
+									<div class="tm-desc">
+										<h5 class="tm-name">
+											Luke
+											<br>Brown <img src="http://www.skillifynow.com/img/tm-li.png">
+										</h5>
+										<p class="tm-desg">Advisor - USC</p>
+									</div>
+								</div>
+							</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="Choice" class="section_six">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 slider-from-left">
+                            <h2>Student?</h2>
+                            <a href="https://skillify.wufoo.com/forms/s18u6a2x0dcjxu4/" class="button">APPLY NOW</a>
+                        </div>
+                        <div class="col-md-6 slider-from-right">
+                            <h2>Educator?</h2>
+                            <a href="#" class="button">CONTACT US</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="social-media-buttons">
+                            <li><a href="https://www.facebook.com/Skillify/"><img src="http://www.skillifynow.com/img/facebook.png"></a></li>
+                            <li><a href="https://twitter.com/skillify"><img src="http://www.skillifynow.com/img/twitter.png"></a></li>
+                            <li><a href="https://www.instagram.com/skillifynow/"><img src="http://www.skillifynow.com/img/instagram.png"></a></li>
+                        </ul>
+                        <ul class="footer-nav">
+                            <li><a href="http://www.skillifynow.com/">Home</a></li>
+                            <li><a href="http://www.skillifynow.com/about">About</a></li>
+                            <li><a href="http://www.skillifynow.com/mentors">Mentors</a></li>
+                            <li><a href="http://www.skillifynow.com/educator">Educator</a></li>
+                            <li><a href="http://www.skillifynow.com/impact">Impact</a></li>
+                            <li><a href="http://www.skillifynow.com/news">News</a></li>
+                            <li><a href="http://www.skillifynow.com/contact">Contact</a></li>
+                        </ul>
+                        <div class="copyright">&copy; 2017 All Rights Reserved. Skillify, Inc.</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,900|Playfair+Display:900" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://www.skillifynow.com/css/normalize.css">
+    <link rel="stylesheet" href="http://www.skillifynow.com/style.css">
+    <link rel="stylesheet" href="http://www.skillifynow.com/css/responsive.css" media="(max-width: 768px)">
+
+    <script src="http://www.skillifynow.com/js/vendors/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://www.skillifynow.com/js/script.js"></script>
+</body>
+</html>
