@@ -42,7 +42,7 @@ jQuery(document).ready(function($){
         event.preventDefault();
         $('body').animate({ scrollTop: $('header').outerHeight() }, 1000);
     });
-    $('.glow').click(function(event){
+    $('.lightbox-trigger').click(function(event){
         event.preventDefault();
         $('.lightbox').hide();
         $(  "#" + $(this).data('lightbox') ).css('display', 'flex');
